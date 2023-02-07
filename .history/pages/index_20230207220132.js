@@ -5,7 +5,7 @@ const inter = Space_Grotesk({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div class="bg-[url('/bg-lines.svg')] bg-black bg-no-repeat bg-center">
+    <div class="bg-[url('/bg-lines.svg')] bg-black px-2">
       <div className={` text-white h-screen flex flex-col justify-center items-center ${inter.className}`}>
         <div className='flex h-[100px]'>
           <Image src="/Logo_Pioneer.svg" width={75} height={32} />
@@ -16,10 +16,10 @@ export default function Home() {
           <div>with friends and </div>
         </div>
         <div className='text-[72px] text-center font-semibold w-[1152px] '>loved ones effortlessly.</div>
-        <div className='text-[36px] font-semibold pt-16'>
+        <div className='text-[40px] font-semibold pt-20'>
           Let’s get started!
         </div>
-        <button className='bg-white rounded-3xl text-[24px] font-semibold mt-10 mb-15 text-black p-2 px-5 border-2 hover:text-white hover:bg-black hover:border-2'>
+        <button className='bg-white rounded-3xl text-[24px] font-semibold mt-10 mb-15 text-black p-2 px-5'>
           Connect Wallet
         </button>
       </div>

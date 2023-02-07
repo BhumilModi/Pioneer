@@ -19,7 +19,7 @@ export default function Home() {
         <div className='text-[36px] font-semibold pt-16'>
           Let’s get started!
         </div>
-        <button className='bg-white rounded-3xl text-[24px] font-semibold mt-10 mb-15 text-black p-2 px-5 border-2 hover:text-white hover:bg-black hover:border-2'>
+        <button className='bg-white rounded-3xl text-[24px] font-semibold mt-10 mb-15 text-black p-2 px-5 hover:text-white hover:text-black'>
           Connect Wallet
         </button>
       </div>
